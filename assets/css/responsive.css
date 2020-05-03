@@ -1,0 +1,105 @@
+.btn__byQ{
+    width: 120px;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: #b80257;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    transition-property: color;
+    transition-duration: .3s;
+}
+
+@media (min-width: 992px){
+    .collapse{
+        margin: 0 25px;
+    }
+
+    .nav-link{
+        color: #fff !important;
+        position: relative !important;
+    }
+    
+    .nav-link::before{
+        content: '';
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 0;
+        transition:  0.3s all linear;
+        left: 50%;
+        top: 80%;
+    }
+    /* Carousel */
+    .carousel-inner img{
+        width: 100%;
+        height: 640px !important;
+        object-fit: cover; 
+        /* magic của object-fit */
+    }
+
+    .carousel-caption{
+        font-size: 26px;
+    }
+
+    .carousel-caption h4{
+        font-size: 50px;
+    }
+}
+
+/* cho Mobile */
+@media (max-width : 768px){
+    .ldio-0j8dxalhm19q {
+        top: 35%;
+        left: 18%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translateZ(0) scale(1);
+        backface-visibility: hidden;
+        transform-origin: 0 0; /* see note above */
+    }
+    /* Phan footer */
+    .footer{
+        text-align: center;
+    }
+    /* <h5>Học lập trình chỉ với 50.000VNĐ</h3>
+    <p>Với chi phí thấp, chỉ 50k bạn đã có thể bắt đầu một khóa học lập trình yêu thích</p> */
+    .carousel-inner img{
+        height: 100vh;
+    }
+
+    .socail-contact{
+        justify-content: center;
+    }
+    .footer__follow button{
+        width: 100%;
+    }
+    /* carousel caption */
+    .carousel-caption{
+        font-size: 16px;
+    }
+
+    .carousel-caption h4{
+        font-size: 20px;
+    }
+
+    .carousel-caption button{
+        width: 150px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    /*  */
+    .comment__text button{
+        width: 100%;
+        margin-left: 0;
+    }
+}
